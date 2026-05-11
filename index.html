@@ -12,10 +12,16 @@
             --paper-light: #e2dcc8;
             --accent-red: #8b0000;
         }
+        @font-face {
+  font-family: '2045alphabet';
+  src: url('https://ec2045.github.io/2045font/2045alphabet.otf') format('opentype');
+  font-display: swap;
+}
+
         body {
             background-color: var(--forest-dark);
             color: var(--paper-light);
-            font-family: 'Shippori Mincho', serif;
+            font-family: '2045alphabet','Shippori Mincho', serif;
             scroll-behavior: smooth;
         }
         .parchment {
